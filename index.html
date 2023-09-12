@@ -1,91 +1,256 @@
 <!DOCTYPE html>
-<!--
- *  Copyright (c) 2017 The WebRTC project authors. All Rights Reserved.
- *
- *  Use of this source code is governed by a BSD-style license
- *  that can be found in the LICENSE file in the root of the source
- *  tree.
--->
 <html>
-<head>
-
-  <meta charset="utf-8">
-  <meta name="description" content="WebRTC Javascript test pages">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
-  <meta itemprop="description" content="Client-side WebRTC test pages">
-  <meta itemprop="image" content="/images/webrtc-icon-192x192.png">
-  <meta itemprop="name" content="WebRTC Javascript test pages">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta id="theme-color" name="theme-color" content="#ffffff">
-
-  <base target="_blank">
-
-  <title>SchoolAnswers - Home</title>
-
-  <link rel="icon" sizes="192x192" href="images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/landing_page.css" />
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-48530561-3', 'auto');
-    ga('send', 'pageview');
-  </script>
-</head>
-<body>
-  <div id="container">
-
-    <h1>Welcome To SchoolAnswers</h1>
-
-    <section>
-
-      <p>SchoolAnswers is a place to get all of your answers for High School.</p>
-
-      <p>Patches and issues welcome! See
-         <a href="https://github.com/webrtc/test-pages/blob/gh-pages/CONTRIBUTING.md">CONTRIBUTING.md</a>
-         for instructions. The <a href="https://bit.ly/webrtcdevguide">Developer's Guide</a>
-         for this repo has more information about code style, structure and validation.
-      </p>
-
-    </section>
-
-    <section>
-
-      <p><a href="src/audio-and-video/">Audio and Video streams</a></p>
-
-      <p><a href="src/canvas-capture/">Peer connection from canvas capture stream</a></p>
-
-      <p><a href="src/iframe-apprtc/">Iframe apprtc</a></p>
-
-      <p><a href="src/iframe-video/">Iframe video</a></p>
-
-      <p><a href="src/multiple-audio/">Multiple audio streams</a></p>
-
-      <p><a href="src/multiple-peerconnections/">Multiple peer connections</a></p>
-
-      <p><a href="src/multiple-video/">Multiple video streams</a></p>
-
-      <p><a href="src/multiple-video-devices/">Multiple video devices</a></p>
-
-      <p><a href="src/pause-play/">Randomly pause and play</a></p>
-
-      <p><a href="src/peer2peer/">Peer2peer</a></p>
-
-      <p><a href="src/peer2peer-iframe/">Peer2peer iframe</a></p>
-
-      <p><a href="src/peer2peer-video/">Peer2peer from video</a></p>
-
-      <p><a href="src/single-audio/">Single audio stream</a></p>
-
-      <p><a href="src/single-video/">Single video stream</a></p>
-
-    </section>
-
-    <a href="//github.com/webrtc/test-pages/tree/gh-pages" title="View the repository" id="viewSource">github.com/webrtc/test-pages/tree/gh-pages</a>
-
-  </div>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Forum - Free Bulma template</title>
+		<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+		<!-- Bulma Version 0.9.4-->
+		<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/forum.css">
+	</head>
+	<body>
+		<nav class="navbar is-white topNav">
+			<div class="container">
+				<div class="navbar-brand">
+					<a class="navbar-item" href="../">
+						<img src="../images/bulma.png" width="112" height="28">
+					</a>
+					<div class="navbar-burger burger" data-target="topNav">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<div id="topNav" class="navbar-menu">
+					<div class="navbar-start">
+						<a class="navbar-item" href="cover.html">Home</a>
+						<a class="navbar-item" href="landing.html">Landing</a>
+						<a class="navbar-item" href="blog.html">Blog</a>
+						<a class="navbar-item" href="instaAlbum.html">Album</a>
+						<a class="navbar-item" href="kanban[search].html">Kanban</a>
+						<a class="navbar-item" href="search.html">Search</a>
+						<a class="navbar-item" href="tabs.html">Tabs</a>
+					</div>
+					<div class="navbar-end">
+						<div class="navbar-item">
+							<div class="field is-grouped">
+								<p class="control">
+									<a class="button is-small">
+										<span class="icon">
+											<i class="fa fa-user-plus"></i>
+										</span>
+										<span>
+											Register
+										</span>
+									</a>
+								</p>
+								<p class="control">
+									<a class="button is-small is-info is-outlined">
+										<span class="icon">
+											<i class="fa fa-user"></i>
+										</span>
+										<span>Login</span>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<nav class="navbar is-white">
+			<div class="container">
+				<div class="navbar-menu">
+					<div class="navbar-start">
+						<a class="navbar-item is-active" href="#">Popular</a>
+						<a class="navbar-item" href="#">Recent</a>
+						<a class="navbar-item" href="#">Documentation</a>
+					</div>
+					<div class="navbar-end">
+						<div class="navbar-item">
+							<input class="input" type="search" placeholder="Search forum...">
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<section class="container">
+			<div class="columns">
+				<div class="column is-3">
+					<a class="button is-primary is-block is-alt is-large" href="#">New Post</a>
+					<aside class="menu">
+						<p class="menu-label">
+							Tags
+						</p>
+						<ul class="menu-list">
+							<li><span class="tag is-primary is-medium ">Dashboard</span></li>
+							<li><span class="tag is-link is-medium ">Customers</span></li>
+							<li><span class="tag is-light is-danger is-medium ">Authentication</span></li>
+							<li><span class="tag is-dark is-medium ">Payments</span></li>
+							<li><span class="tag is-success is-medium ">Transfers</span></li>
+							<li><span class="tag is-warning is-medium ">Balance</span></li>
+							<li><span class="tag is-medium ">Question</span></li>
+						</ul>
+					</aside>
+				</div>
+				<div class="column is-9">
+					<div class="box content">
+						<article class="post">
+							<h4>Bulma: How do you center a button in a box?</h4>
+							<div class="media">
+								<div class="media-left">
+									<p class="image is-32x32">
+										<img src="http://bulma.io/images/placeholders/128x128.png">
+									</p>
+								</div>
+								<div class="media-content">
+									<div class="content">
+										<p>
+											<a href="#">@jsmith</a> replied 34 minutes ago &nbsp;
+											<span class="tag">Question</span>
+										</p>
+									</div>
+								</div>
+								<div class="media-right">
+									<span class="has-text-grey-light"><i class="fa fa-comments"></i> 1</span>
+								</div>
+							</div>
+						</article>
+						<article class="post">
+							<h4>How can I make a bulma button go full width?</h4>
+							<div class="media">
+								<div class="media-left">
+									<p class="image is-32x32">
+										<img src="http://bulma.io/images/placeholders/128x128.png">
+									</p>
+								</div>
+								<div class="media-content">
+									<div class="content">
+										<p>
+											<a href="#">@red</a> replied 40 minutes ago &nbsp;
+											<span class="tag">Question</span>
+										</p>
+									</div>
+								</div>
+								<div class="media-right">
+									<span class="has-text-grey-light"><i class="fa fa-comments"></i> 0</span>
+								</div>
+							</div>
+						</article>
+						<article class="post">
+							<h4>TypeError: Data must be a string or a buffer when trying touse vue-bulma-tabs</h4>
+							<div class="media">
+								<div class="media-left">
+									<p class="image is-32x32">
+										<img src="http://bulma.io/images/placeholders/128x128.png">
+									</p>
+								</div>
+								<div class="media-content">
+									<div class="content">
+										<p>
+											<a href="#">@jsmith</a> replied 53 minutes ago &nbsp;
+											<span class="tag">Question</span>
+										</p>
+									</div>
+								</div>
+								<div class="media-right">
+									<span class="has-text-grey-light"><i class="fa fa-comments"></i> 13</span>
+								</div>
+							</div>
+						</article>
+						<article class="post">
+							<h4>How to vertically center elements in Bulma?</h4>
+							<div class="media">
+								<div class="media-left">
+									<p class="image is-32x32">
+										<img src="http://bulma.io/images/placeholders/128x128.png">
+									</p>
+								</div>
+								<div class="media-content">
+									<div class="content">
+										<p>
+											<a href="#">@brown</a> replied 3 hours ago &nbsp;
+											<span class="tag">Question</span>
+										</p>
+									</div>
+								</div>
+								<div class="media-right">
+									<span class="has-text-grey-light"><i class="fa fa-comments"></i> 2</span>
+								</div>
+							</div>
+						</article>
+						<article class="post">
+							<h4>I'm trying to use hamburger menu on bulma css, but it doesn't work. What is wrong?</h4>
+							<div class="media">
+								<div class="media-left">
+									<p class="image is-32x32">
+										<img src="http://bulma.io/images/placeholders/128x128.png">
+									</p>
+								</div>
+								<div class="media-content">
+									<div class="content">
+										<p>
+											<a href="#">@hamburgler</a> replied 5 hours ago &nbsp;
+											<span class="tag">Question</span>
+										</p>
+									</div>
+								</div>
+								<div class="media-right">
+									<span class="has-text-grey-light"><i class="fa fa-comments"></i> 2</span>
+								</div>
+							</div>
+						</article>
+						<article class="post">
+							<h4>How to make tiles wrap with Bulma CSS?</h4>
+							<div class="media">
+								<div class="media-left">
+									<p class="image is-32x32">
+										<img src="http://bulma.io/images/placeholders/128x128.png">
+									</p>
+								</div>
+								<div class="media-content">
+									<div class="content">
+										<p>
+											<a href="#">@rapper</a> replied 3 hours ago &nbsp;
+											<span class="tag">Question</span>
+										</p>
+									</div>
+								</div>
+								<div class="media-right">
+									<span class="has-text-grey-light"><i class="fa fa-comments"></i> 2</span>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="content has-text-centered">
+					<div class="columns is-mobile is-centered">
+						<div class="field is-grouped is-grouped-multiline">
+							<div class="control">
+								<div class="tags has-addons">
+									<a class="tag is-link" href="https://github.com/BulmaTemplates/bulma-templates">Bulma Templates</a>
+									<span class="tag is-light">Daniel Supernault</span>
+								</div>
+							</div>
+							<div class="control">
+								<div class="tags has-addons">
+									<a class="tag is-link">The source code is licensed</a>
+									<span class="tag is-light">MIT &nbsp;<i class="fa fa-github"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script async type="text/javascript" src="../js/bulma.js"></script>
+	</body>
 </html>
